@@ -5,9 +5,9 @@ spring:
     resources:
       add-mappings: false
   datasource:
-    url: jdbc:postgresql://localhost:5432/parking-pro
-    username: postgres
-    password: postgres
+    url: jdbc:postgresql://ep-fancy-grass-ah86iljg-pooler.c-3.us-east-1.aws.neon.tech:5432/neondb
+    username: neondb_owner
+    password: npg_i4CsnSDcNF9v
     driver-class-name: org.postgresql.Driver
 
   jpa:
